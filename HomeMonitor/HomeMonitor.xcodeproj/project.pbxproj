@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC00AB9A1A1D1CA8006F7E8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00AB991A1D1CA8006F7E8A /* main.m */; };
+		EC00AB9D1A1D1CA8006F7E8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00AB9C1A1D1CA8006F7E8A /* AppDelegate.m */; };
+		EC00ABA51A1D1CA8006F7E8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC00ABA41A1D1CA8006F7E8A /* Images.xcassets */; };
+		EC00ABBF1A1D1E29006F7E8A /* HMORootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABBE1A1D1E29006F7E8A /* HMORootViewController.m */; };
+		EC00ABC41A1D21B6006F7E8A /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABC21A1D21B6006F7E8A /* BLE.m */; };
+		EC00ABCF1A1D2BDD006F7E8A /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABC71A1D2BDD006F7E8A /* ALView+PureLayout.m */; };
+		EC00ABD01A1D2BDD006F7E8A /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABC91A1D2BDD006F7E8A /* NSArray+PureLayout.m */; };
+		EC00ABD11A1D2BDD006F7E8A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABCB1A1D2BDD006F7E8A /* NSLayoutConstraint+PureLayout.m */; };
+		EC00ABEE1A1D31C5006F7E8A /* CALayer+LineGraphAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABD41A1D31C5006F7E8A /* CALayer+LineGraphAnimation.m */; };
+		EC00ABEF1A1D31C5006F7E8A /* LineGraphAxisAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABD61A1D31C5006F7E8A /* LineGraphAxisAnimator.m */; };
+		EC00ABF01A1D31C5006F7E8A /* LineGraphAxisAnimatorDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABD81A1D31C5006F7E8A /* LineGraphAxisAnimatorDefault.m */; };
+		EC00ABF11A1D31C5006F7E8A /* LineGraphAxisAnimatorTranslate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABDA1A1D31C5006F7E8A /* LineGraphAxisAnimatorTranslate.m */; };
+		EC00ABF21A1D31C5006F7E8A /* LineGraphAxisLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABDC1A1D31C5006F7E8A /* LineGraphAxisLayer.m */; };
+		EC00ABF31A1D31C5006F7E8A /* LineGraphCirclePressHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABDE1A1D31C5006F7E8A /* LineGraphCirclePressHandler.m */; };
+		EC00ABF41A1D31C5006F7E8A /* LineGraphPinchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABE01A1D31C5006F7E8A /* LineGraphPinchHandler.m */; };
+		EC00ABF51A1D31C5006F7E8A /* LineGraphPlotAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABE21A1D31C5006F7E8A /* LineGraphPlotAnimation.m */; };
+		EC00ABF61A1D31C5006F7E8A /* LineGraphRangeCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABE41A1D31C5006F7E8A /* LineGraphRangeCalculator.m */; };
+		EC00ABF71A1D31C5006F7E8A /* LineGraphTickInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABE61A1D31C5006F7E8A /* LineGraphTickInterval.m */; };
+		EC00ABF81A1D31C5006F7E8A /* LineGraphTouchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABE81A1D31C5006F7E8A /* LineGraphTouchHandler.m */; };
+		EC00ABF91A1D31C5006F7E8A /* LineGraphUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABEA1A1D31C5006F7E8A /* LineGraphUtils.m */; };
+		EC00ABFA1A1D31C5006F7E8A /* LineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABED1A1D31C5006F7E8A /* LineGraphView.m */; };
+		EC00ABFD1A1D32A8006F7E8A /* HMOGraphCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABFC1A1D32A8006F7E8A /* HMOGraphCollectionViewCell.m */; };
+		EC00AC001A1D3607006F7E8A /* HMOGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = EC00ABFF1A1D3607006F7E8A /* HMOGraph.m */; };
+		EC1F7DB91A1E6D6300476C19 /* UIColor+HMOColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1F7DB81A1E6D6300476C19 /* UIColor+HMOColorAdditions.m */; };
+		EC1F7DBC1A1E6F3200476C19 /* Azo-Sans.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC1F7DBB1A1E6F3200476C19 /* Azo-Sans.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC00AB941A1D1CA8006F7E8A /* HomeMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC00AB981A1D1CA8006F7E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC00AB991A1D1CA8006F7E8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC00AB9B1A1D1CA8006F7E8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC00AB9C1A1D1CA8006F7E8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC00ABA41A1D1CA8006F7E8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC00ABBD1A1D1E29006F7E8A /* HMORootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMORootViewController.h; sourceTree = "<group>"; };
+		EC00ABBE1A1D1E29006F7E8A /* HMORootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMORootViewController.m; sourceTree = "<group>"; };
+		EC00ABC11A1D21B6006F7E8A /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		EC00ABC21A1D21B6006F7E8A /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		EC00ABC31A1D21B6006F7E8A /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		EC00ABC61A1D2BDD006F7E8A /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		EC00ABC71A1D2BDD006F7E8A /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		EC00ABC81A1D2BDD006F7E8A /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		EC00ABC91A1D2BDD006F7E8A /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		EC00ABCA1A1D2BDD006F7E8A /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		EC00ABCB1A1D2BDD006F7E8A /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		EC00ABCC1A1D2BDD006F7E8A /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		EC00ABCD1A1D2BDD006F7E8A /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		EC00ABCE1A1D2BDD006F7E8A /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		EC00ABD31A1D31C5006F7E8A /* CALayer+LineGraphAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+LineGraphAnimation.h"; sourceTree = "<group>"; };
+		EC00ABD41A1D31C5006F7E8A /* CALayer+LineGraphAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LineGraphAnimation.m"; sourceTree = "<group>"; };
+		EC00ABD51A1D31C5006F7E8A /* LineGraphAxisAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphAxisAnimator.h; sourceTree = "<group>"; };
+		EC00ABD61A1D31C5006F7E8A /* LineGraphAxisAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphAxisAnimator.m; sourceTree = "<group>"; };
+		EC00ABD71A1D31C5006F7E8A /* LineGraphAxisAnimatorDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphAxisAnimatorDefault.h; sourceTree = "<group>"; };
+		EC00ABD81A1D31C5006F7E8A /* LineGraphAxisAnimatorDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphAxisAnimatorDefault.m; sourceTree = "<group>"; };
+		EC00ABD91A1D31C5006F7E8A /* LineGraphAxisAnimatorTranslate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphAxisAnimatorTranslate.h; sourceTree = "<group>"; };
+		EC00ABDA1A1D31C5006F7E8A /* LineGraphAxisAnimatorTranslate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphAxisAnimatorTranslate.m; sourceTree = "<group>"; };
+		EC00ABDB1A1D31C5006F7E8A /* LineGraphAxisLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphAxisLayer.h; sourceTree = "<group>"; };
+		EC00ABDC1A1D31C5006F7E8A /* LineGraphAxisLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphAxisLayer.m; sourceTree = "<group>"; };
+		EC00ABDD1A1D31C5006F7E8A /* LineGraphCirclePressHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphCirclePressHandler.h; sourceTree = "<group>"; };
+		EC00ABDE1A1D31C5006F7E8A /* LineGraphCirclePressHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphCirclePressHandler.m; sourceTree = "<group>"; };
+		EC00ABDF1A1D31C5006F7E8A /* LineGraphPinchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphPinchHandler.h; sourceTree = "<group>"; };
+		EC00ABE01A1D31C5006F7E8A /* LineGraphPinchHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphPinchHandler.m; sourceTree = "<group>"; };
+		EC00ABE11A1D31C5006F7E8A /* LineGraphPlotAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphPlotAnimation.h; sourceTree = "<group>"; };
+		EC00ABE21A1D31C5006F7E8A /* LineGraphPlotAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphPlotAnimation.m; sourceTree = "<group>"; };
+		EC00ABE31A1D31C5006F7E8A /* LineGraphRangeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphRangeCalculator.h; sourceTree = "<group>"; };
+		EC00ABE41A1D31C5006F7E8A /* LineGraphRangeCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphRangeCalculator.m; sourceTree = "<group>"; };
+		EC00ABE51A1D31C5006F7E8A /* LineGraphTickInterval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphTickInterval.h; sourceTree = "<group>"; };
+		EC00ABE61A1D31C5006F7E8A /* LineGraphTickInterval.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphTickInterval.m; sourceTree = "<group>"; };
+		EC00ABE71A1D31C5006F7E8A /* LineGraphTouchHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphTouchHandler.h; sourceTree = "<group>"; };
+		EC00ABE81A1D31C5006F7E8A /* LineGraphTouchHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphTouchHandler.m; sourceTree = "<group>"; };
+		EC00ABE91A1D31C5006F7E8A /* LineGraphUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphUtils.h; sourceTree = "<group>"; };
+		EC00ABEA1A1D31C5006F7E8A /* LineGraphUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphUtils.m; sourceTree = "<group>"; };
+		EC00ABEC1A1D31C5006F7E8A /* LineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineGraphView.h; sourceTree = "<group>"; };
+		EC00ABED1A1D31C5006F7E8A /* LineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineGraphView.m; sourceTree = "<group>"; };
+		EC00ABFB1A1D32A8006F7E8A /* HMOGraphCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMOGraphCollectionViewCell.h; sourceTree = "<group>"; };
+		EC00ABFC1A1D32A8006F7E8A /* HMOGraphCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMOGraphCollectionViewCell.m; sourceTree = "<group>"; };
+		EC00ABFE1A1D3607006F7E8A /* HMOGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMOGraph.h; sourceTree = "<group>"; };
+		EC00ABFF1A1D3607006F7E8A /* HMOGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMOGraph.m; sourceTree = "<group>"; };
+		EC1F7DB71A1E6D6300476C19 /* UIColor+HMOColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HMOColorAdditions.h"; sourceTree = "<group>"; };
+		EC1F7DB81A1E6D6300476C19 /* UIColor+HMOColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMOColorAdditions.m"; sourceTree = "<group>"; };
+		EC1F7DBB1A1E6F3200476C19 /* Azo-Sans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Azo-Sans.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC00AB911A1D1CA8006F7E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC00AB8B1A1D1CA8006F7E8A = {
+			isa = PBXGroup;
+			children = (
+				EC00AB961A1D1CA8006F7E8A /* HomeMonitor */,
+				EC00AB951A1D1CA8006F7E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC00AB951A1D1CA8006F7E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC00AB941A1D1CA8006F7E8A /* HomeMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC00AB961A1D1CA8006F7E8A /* HomeMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F7DBA1A1E6F3200476C19 /* Fonts */,
+				EC1F7DB71A1E6D6300476C19 /* UIColor+HMOColorAdditions.h */,
+				EC1F7DB81A1E6D6300476C19 /* UIColor+HMOColorAdditions.m */,
+				EC00ABD21A1D31C5006F7E8A /* LineGraphView */,
+				EC00ABC51A1D2BDD006F7E8A /* PureLayout */,
+				EC00ABC01A1D21B6006F7E8A /* BLE */,
+				EC00AB9B1A1D1CA8006F7E8A /* AppDelegate.h */,
+				EC00AB9C1A1D1CA8006F7E8A /* AppDelegate.m */,
+				EC00ABA41A1D1CA8006F7E8A /* Images.xcassets */,
+				EC00AB971A1D1CA8006F7E8A /* Supporting Files */,
+				EC00ABBD1A1D1E29006F7E8A /* HMORootViewController.h */,
+				EC00ABBE1A1D1E29006F7E8A /* HMORootViewController.m */,
+				EC00ABFB1A1D32A8006F7E8A /* HMOGraphCollectionViewCell.h */,
+				EC00ABFC1A1D32A8006F7E8A /* HMOGraphCollectionViewCell.m */,
+				EC00ABFE1A1D3607006F7E8A /* HMOGraph.h */,
+				EC00ABFF1A1D3607006F7E8A /* HMOGraph.m */,
+			);
+			path = HomeMonitor;
+			sourceTree = "<group>";
+		};
+		EC00AB971A1D1CA8006F7E8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC00AB981A1D1CA8006F7E8A /* Info.plist */,
+				EC00AB991A1D1CA8006F7E8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC00ABC01A1D21B6006F7E8A /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				EC00ABC11A1D21B6006F7E8A /* BLE.h */,
+				EC00ABC21A1D21B6006F7E8A /* BLE.m */,
+				EC00ABC31A1D21B6006F7E8A /* BLEDefines.h */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		EC00ABC51A1D2BDD006F7E8A /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EC00ABC61A1D2BDD006F7E8A /* ALView+PureLayout.h */,
+				EC00ABC71A1D2BDD006F7E8A /* ALView+PureLayout.m */,
+				EC00ABC81A1D2BDD006F7E8A /* NSArray+PureLayout.h */,
+				EC00ABC91A1D2BDD006F7E8A /* NSArray+PureLayout.m */,
+				EC00ABCA1A1D2BDD006F7E8A /* NSLayoutConstraint+PureLayout.h */,
+				EC00ABCB1A1D2BDD006F7E8A /* NSLayoutConstraint+PureLayout.m */,
+				EC00ABCC1A1D2BDD006F7E8A /* PureLayout+Internal.h */,
+				EC00ABCD1A1D2BDD006F7E8A /* PureLayout.h */,
+				EC00ABCE1A1D2BDD006F7E8A /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		EC00ABD21A1D31C5006F7E8A /* LineGraphView */ = {
+			isa = PBXGroup;
+			children = (
+				EC00ABD31A1D31C5006F7E8A /* CALayer+LineGraphAnimation.h */,
+				EC00ABD41A1D31C5006F7E8A /* CALayer+LineGraphAnimation.m */,
+				EC00ABD51A1D31C5006F7E8A /* LineGraphAxisAnimator.h */,
+				EC00ABD61A1D31C5006F7E8A /* LineGraphAxisAnimator.m */,
+				EC00ABD71A1D31C5006F7E8A /* LineGraphAxisAnimatorDefault.h */,
+				EC00ABD81A1D31C5006F7E8A /* LineGraphAxisAnimatorDefault.m */,
+				EC00ABD91A1D31C5006F7E8A /* LineGraphAxisAnimatorTranslate.h */,
+				EC00ABDA1A1D31C5006F7E8A /* LineGraphAxisAnimatorTranslate.m */,
+				EC00ABDB1A1D31C5006F7E8A /* LineGraphAxisLayer.h */,
+				EC00ABDC1A1D31C5006F7E8A /* LineGraphAxisLayer.m */,
+				EC00ABDD1A1D31C5006F7E8A /* LineGraphCirclePressHandler.h */,
+				EC00ABDE1A1D31C5006F7E8A /* LineGraphCirclePressHandler.m */,
+				EC00ABDF1A1D31C5006F7E8A /* LineGraphPinchHandler.h */,
+				EC00ABE01A1D31C5006F7E8A /* LineGraphPinchHandler.m */,
+				EC00ABE11A1D31C5006F7E8A /* LineGraphPlotAnimation.h */,
+				EC00ABE21A1D31C5006F7E8A /* LineGraphPlotAnimation.m */,
+				EC00ABE31A1D31C5006F7E8A /* LineGraphRangeCalculator.h */,
+				EC00ABE41A1D31C5006F7E8A /* LineGraphRangeCalculator.m */,
+				EC00ABE51A1D31C5006F7E8A /* LineGraphTickInterval.h */,
+				EC00ABE61A1D31C5006F7E8A /* LineGraphTickInterval.m */,
+				EC00ABE71A1D31C5006F7E8A /* LineGraphTouchHandler.h */,
+				EC00ABE81A1D31C5006F7E8A /* LineGraphTouchHandler.m */,
+				EC00ABE91A1D31C5006F7E8A /* LineGraphUtils.h */,
+				EC00ABEA1A1D31C5006F7E8A /* LineGraphUtils.m */,
+				EC00ABEC1A1D31C5006F7E8A /* LineGraphView.h */,
+				EC00ABED1A1D31C5006F7E8A /* LineGraphView.m */,
+			);
+			path = LineGraphView;
+			sourceTree = "<group>";
+		};
+		EC1F7DBA1A1E6F3200476C19 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F7DBB1A1E6F3200476C19 /* Azo-Sans.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC00AB931A1D1CA8006F7E8A /* HomeMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC00ABB71A1D1CA8006F7E8A /* Build configuration list for PBXNativeTarget "HomeMonitor" */;
+			buildPhases = (
+				EC00AB901A1D1CA8006F7E8A /* Sources */,
+				EC00AB911A1D1CA8006F7E8A /* Frameworks */,
+				EC00AB921A1D1CA8006F7E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeMonitor;
+			productName = HomeMonitor;
+			productReference = EC00AB941A1D1CA8006F7E8A /* HomeMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC00AB8C1A1D1CA8006F7E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HMO;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Hipo;
+				TargetAttributes = {
+					EC00AB931A1D1CA8006F7E8A = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = W9875NV3WF;
+					};
+				};
+			};
+			buildConfigurationList = EC00AB8F1A1D1CA8006F7E8A /* Build configuration list for PBXProject "HomeMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC00AB8B1A1D1CA8006F7E8A;
+			productRefGroup = EC00AB951A1D1CA8006F7E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC00AB931A1D1CA8006F7E8A /* HomeMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC00AB921A1D1CA8006F7E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F7DBC1A1E6F3200476C19 /* Azo-Sans.otf in Resources */,
+				EC00ABA51A1D1CA8006F7E8A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC00AB901A1D1CA8006F7E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC00ABF51A1D31C5006F7E8A /* LineGraphPlotAnimation.m in Sources */,
+				EC00ABD11A1D2BDD006F7E8A /* NSLayoutConstraint+PureLayout.m in Sources */,
+				EC00ABF71A1D31C5006F7E8A /* LineGraphTickInterval.m in Sources */,
+				EC00ABFA1A1D31C5006F7E8A /* LineGraphView.m in Sources */,
+				EC00ABBF1A1D1E29006F7E8A /* HMORootViewController.m in Sources */,
+				EC00ABF91A1D31C5006F7E8A /* LineGraphUtils.m in Sources */,
+				EC00AB9D1A1D1CA8006F7E8A /* AppDelegate.m in Sources */,
+				EC00AB9A1A1D1CA8006F7E8A /* main.m in Sources */,
+				EC00ABFD1A1D32A8006F7E8A /* HMOGraphCollectionViewCell.m in Sources */,
+				EC00ABF41A1D31C5006F7E8A /* LineGraphPinchHandler.m in Sources */,
+				EC00ABF61A1D31C5006F7E8A /* LineGraphRangeCalculator.m in Sources */,
+				EC00AC001A1D3607006F7E8A /* HMOGraph.m in Sources */,
+				EC00ABEF1A1D31C5006F7E8A /* LineGraphAxisAnimator.m in Sources */,
+				EC00ABF11A1D31C5006F7E8A /* LineGraphAxisAnimatorTranslate.m in Sources */,
+				EC00ABF31A1D31C5006F7E8A /* LineGraphCirclePressHandler.m in Sources */,
+				EC00ABCF1A1D2BDD006F7E8A /* ALView+PureLayout.m in Sources */,
+				EC00ABF01A1D31C5006F7E8A /* LineGraphAxisAnimatorDefault.m in Sources */,
+				EC00ABEE1A1D31C5006F7E8A /* CALayer+LineGraphAnimation.m in Sources */,
+				EC00ABD01A1D2BDD006F7E8A /* NSArray+PureLayout.m in Sources */,
+				EC00ABF81A1D31C5006F7E8A /* LineGraphTouchHandler.m in Sources */,
+				EC1F7DB91A1E6D6300476C19 /* UIColor+HMOColorAdditions.m in Sources */,
+				EC00ABC41A1D21B6006F7E8A /* BLE.m in Sources */,
+				EC00ABF21A1D31C5006F7E8A /* LineGraphAxisLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC00ABB51A1D1CA8006F7E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC00ABB61A1D1CA8006F7E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC00ABB81A1D1CA8006F7E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HomeMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC00ABB91A1D1CA8006F7E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = HomeMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC00AB8F1A1D1CA8006F7E8A /* Build configuration list for PBXProject "HomeMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC00ABB51A1D1CA8006F7E8A /* Debug */,
+				EC00ABB61A1D1CA8006F7E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC00ABB71A1D1CA8006F7E8A /* Build configuration list for PBXNativeTarget "HomeMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC00ABB81A1D1CA8006F7E8A /* Debug */,
+				EC00ABB91A1D1CA8006F7E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC00AB8C1A1D1CA8006F7E8A /* Project object */;
+}
